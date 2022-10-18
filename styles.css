@@ -1,7 +1,25 @@
-body {
-   background-color:#0C0000
-}
-h1 {
-  color:#6E0331
+body{
+  background: #F3D0BD;}
 
+  main{
+    display: block;
+    margin:auto;
+    width: 500px;
+  }
+/*I centered the main tag*/
+
+h1{
+  background-color: #6E0331;
+  color: #F5F5F5;
 }
+h2{
+  background-color: #6E0331;
+  color: #F5F5F5;
+}
+.center{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+}
+/*this center class would not work for me, so I used the align-centered HTML*/ 
