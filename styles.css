@@ -1,25 +1,59 @@
 body{
-  background: #F3D0BD;}
+  background: #F3D0BD;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.2;
+  margin: 0;
+  padding:0;
+}
 
-  main{
-    display: block;
-    margin:auto;
-    width: 500px;
-  }
-/*I centered the main tag*/
+li{
+  line-height: 1.2;
+  color: #6E0331;
+}
+
+a{
+  color: #6E0331;
+}
+img{
+  max-width: 100%;
+}
+.hi{
+  width: 200px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.black-box{
+  background: black;
+}
+
+main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
 
 h1{
-  background-color: #6E0331;
+  /* background-color: #6E0331; */
   color: #F5F5F5;
+  font-size: 70px;
+  font-family: 'Amatic SC', sans-serif;
 }
+
 h2{
   background-color: #6E0331;
   color: #F5F5F5;
+  font-family: 'Amatic SC'; sans-serif;
+  font-size: 50px;
 }
+
 .center{
   display:block;
   margin-left: auto;
   margin-right: auto;
   width:500px;
 }
-/*this center class would not work for me, so I used the align-centered HTML*/ 
+
+/*this center class would not work for me, so I used the align-centered HTML*/
